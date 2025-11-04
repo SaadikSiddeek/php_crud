@@ -8,7 +8,7 @@ if (isset($_POST['submit'])) {
     echo "<script>alert('All fields are required!');</script>";
   } else {
 
-    $name = $_POST['name'];
+    $name = $_POST['name']; 
     $email = $_POST['email'];
     $mobile = $_POST['mobile'];
     $password = $_POST['password'];
